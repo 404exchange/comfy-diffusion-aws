@@ -1,0 +1,7 @@
+I will also change the targeted instance type to g4dn.2xlarge and maximum bid price for spot instance to 40 cents. The g4dn.2xlarge instance recently averages about 31 cents an hour through spot instance pricing. 
+
+I have configured an Elastic Network Adapter and an Elastic Block Store at 50GB, and when the spot instance is purchased it will attach to these. My Route53 domain is already configured with a subdomain for this service to send traffic to a reverse proxy, which forwards it to the ENI for the spot instance. 
+
+Next, I will need to configure a userscript for the spot instance to run when launched. The userscript will need to...
+  1. Download and install all prerequisites for comfyui and stable diffusion, including CUDA drivers
+  2. 
