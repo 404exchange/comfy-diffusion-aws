@@ -1,3 +1,5 @@
+PLEASE NOTE: This work has been moved into a private repo. If I get that functioning well and have time I intend to update this repo to reflect the progress of the private repo. Admittedly, this was so I could be lazy about privacy concerns while working on it. 
+
 # comfy-diffusion-aws
 A fork from mikeage@ 's stable-diffusion-aws, with a goal of running comfyui with the same on-demand spot instance setup. 
 
